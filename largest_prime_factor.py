@@ -14,5 +14,6 @@ def Largest_Prime_Factor(n):
 
     return prime_factor
 
-print(Largest_Prime_Factor(600851475143))
 
+n = input("Enter a number to find the largest prime factor: ")
+print(Largest_Prime_Factor(int(n)))
